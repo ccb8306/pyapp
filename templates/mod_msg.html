@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>mod_msg</h1>
+        <form action="/mod_msg/{{msg[0]}}" method="POST">
+            <div>id : <input type="text" name="msg_id" value="{{msg[0]}}" readonly="readonly"></div>
+            <div>text : <input type="text" name="msg_text" value="{{msg[1]}}"></div>
+            <div><button type="submit">수정</button></div>
+        </form>
+    </body>
+</html>
